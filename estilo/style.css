@@ -56,3 +56,94 @@ section#login > div#formulario{
     padding: 10px;
 
 }
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+form > input[type=submit]:hover{
+    background-color: #2f615f;
+    cursor: pointer;
+}
+
+form >a.link{
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    background-color: #5ac4c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 5px 0px;
+}
+
+form > a.link > span{
+    font-size: 0.8em;
+}
+form >a.link:hover{
+    background-color: #419794;
+    cursor: pointer;
+
+}
+
+div.campo >label{
+    display: none;
+}
+
+div.campo{
+    display: block;
+    background-color: #5f2c82;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+
+}
+
+div.campo > span{
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 4px;
+    border: 0px;
+}
+
+div.campo >input:focus-within{
+    background-color: white;
+}
+
+div.campo > input{
+    background-color: #bff1f0;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    transform: translateY(-9px);
+    border: 2px;
+
+
+}
